@@ -1,4 +1,7 @@
 /vendor
 
+app.log
+php_errors.log
+
 # IDE
 /.idea

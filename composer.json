@@ -1,5 +1,11 @@
 {
-    "require": {
-        "monolog/monolog": "1.0.*"
+  "require": {
+    "monolog/monolog": "*",
+    "rollbar/rollbar": "~1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Demo\\": "src/"
     }
+  }
 }
